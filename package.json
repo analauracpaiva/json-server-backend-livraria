@@ -1,5 +1,5 @@
 {
-  "name": "json-server-backend-livraria",
+  "name": "json-server-backend-livraria-eduardo",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",0
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "json-server-relationship": "^0.14.5"
