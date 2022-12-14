@@ -1,11 +1,75 @@
 {
-    "categories": [
-        {"id": 1, "description": "Categoria 1"},
-        {"id": 2, "description": "Categoria 2"}
-    ],
-    "publishers": [],
-    "books": [
-        {"id": 1, "title": "Livro 1", "categoryId": 1, "publisherId": 1},
-        {"id": 1, "title": "Livro 2", "categoryId": 2, "publisherId": 1}
-    ]
+  "autores": [
+    {
+      "id": 1,
+      "nome": "Machado de Assis"
+    },
+    {
+      "nome": "Clarice Lispector",
+      "id": 2
+    },
+    {
+      "nome": "Carlos Drummond de Andrade",
+      "id": 3
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "descricao": "Romance"
+    },
+    {
+      "id": 2,
+      "descricao": "Suspense e Investigação Policial"
+    },
+    {
+      "id": 3,
+      "descricao": "Ficção Científica"
+    },
+    {
+      "id": 4,
+      "descricao": "Poesia"
+    },
+    {
+      "id": 5,
+      "descricao": "Horror"
+    },
+    {
+      "id": 6,
+      "descricao": "Historias em quadrinhos"
+    }
+    
+  ],
+  "editoras": [
+    {
+      "id": 1,
+      "nome": "Principia",
+      "site": "https://principia.pt/"
+    },
+    {
+      "site": "https://www.rocco.com.br/",
+      "nome": "Rocco",
+      "id": 2
+    }
+  ],
+  "livros": [
+    {
+      "nome": "Dom Casmurro",
+      "categoria": "Romance",
+      "autor": "Machado de Assis",
+      "editora": "Principia",
+      "quantidade": 200,
+      "preco": 36,
+      "id": 1
+    },
+    {
+      "nome": "A Hora da Estrela", 
+      "categoria": "Romance",
+      "autor": "Clarice Lispector",
+      "editora": "Rocco",
+      "quantidade": 100,
+      "preco": 25,
+      "id": 3
+    }
+  ]
 }
